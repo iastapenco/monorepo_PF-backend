@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 12px;
+  align-items: center;
+  align-content: center;
+  margin: 25px 5px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+}
+
+.saludos {
+  width: 100%;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  align-self: center;
+}
